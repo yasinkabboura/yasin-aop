@@ -4,8 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a0ade0-e4dd-4155-a800-e71dd60d2993" name="Changes" comment="logging aspect">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aspects/PatchAspect.java" afterDir="false" />
+    <list default="true" id="54a0ade0-e4dd-4155-a800-e71dd60d2993" name="Changes" comment="security aspect">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aspects/SecurityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springAOP/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springAOP/aspects/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springAOP/aspects/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springAOP/aspects/SecuredByAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springAOP/aspects/SecurityContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springAOP/aspects/SecutityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springAOP/service/ImetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aspects/FirstAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aspects/FirstAspect.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aspects/SecondAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aspects/SecondAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springAOP/service/Imetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springAOP/service/Imetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspects/FirstAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspects/SecondAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Application.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +52,33 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Aspect" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="@Aspect" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectId" id="2IYj7KzwAnbqr3RYLY7G4qFlx8Z" />
   <component name="ProjectViewState">
@@ -39,18 +94,35 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aspectJ/lib/aspectjrt.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.24612203" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="springAOP.service" />
       <recent name="metier" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application 1">
+    <configuration name="Application 1" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_291\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="springAOP.Application" />
+      <module name="yasin-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springAOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Application" />
       <module name="yasin-aop" />
@@ -68,8 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Application 1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application 1" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -83,7 +160,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670365249832</updated>
       <workItem from="1670365251475" duration="4609000" />
-      <workItem from="1670425360081" duration="3749000" />
+      <workItem from="1670425360081" duration="7159000" />
+      <workItem from="1670436992585" duration="4711000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1670368774852</created>
@@ -99,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670430240473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="patch aspect">
+      <created>1670430683791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670430683791</updated>
+    </task>
+    <task id="LOCAL-00004" summary="security aspect">
+      <created>1670435251466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670435251466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +212,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="logging aspect" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging aspect" />
+    <MESSAGE value="patch aspect" />
+    <MESSAGE value="security aspect" />
+    <option name="LAST_COMMIT_MESSAGE" value="security aspect" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
