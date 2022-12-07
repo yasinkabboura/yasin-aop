@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a0ade0-e4dd-4155-a800-e71dd60d2993" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectjrt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aspects/FirstAspect.aj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aspects/SecondAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yasin-aop.iml" afterDir="false" />
+    <list default="true" id="54a0ade0-e4dd-4155-a800-e71dd60d2993" name="Changes" comment="logging aspect">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aspects/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aspects/PatchAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/Compte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/IMetierBanque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/IMetierBanqueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aspects/FirstAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aspects/FirstAspect.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aspects/SecondAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aspects/SecondAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspects/FirstAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aspects/FirstAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aspects/SecondAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aspects/SecondAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Application.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Aspect" />
+        <option value="Interface" />
+        <option value="Class" />
         <option value="@Aspect" />
       </list>
     </option>
@@ -55,6 +55,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="metier" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,8 +93,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670365249832</updated>
-      <workItem from="1670365251475" duration="2726000" />
+      <workItem from="1670365251475" duration="4609000" />
+      <workItem from="1670425360081" duration="3444000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1670368774852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670368774852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +119,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="logging aspect" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging aspect" />
   </component>
 </project>
